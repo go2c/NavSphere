@@ -205,38 +205,6 @@
       ],
       "description": "",
       "enabled": true
-    },
-    {
-      "id": "8",
-      "title": "素材资源",
-      "icon": "linecons-thumbs-up",
-      "items": [],
-      "subCategories": [
-        {
-          "id": "8_1",
-          "title": "图标素材",
-          "href": "#图标素材",
-          "icon": "",
-          "description": "",
-          "items": []
-        },
-        {
-          "id": "8_2",
-          "title": "LOGO设计",
-          "href": "#LOGO设计",
-          "icon": "",
-          "description": "",
-          "items": []
-        },
-        {
-          "id": "8_3",
-          "title": "平面素材",
-          "href": "#平面素材",
-          "icon": "",
-          "description": "",
-          "items": []
-        }
-      ]
     }
   ]
 }
