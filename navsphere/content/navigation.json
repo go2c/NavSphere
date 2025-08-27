@@ -102,56 +102,6 @@
       ]
     },
     {
-      "id": "1735433560958",
-      "title": "自媒体工具包",
-      "icon": "Video",
-      "description": "自媒体工具包",
-      "enabled": true,
-      "items": [],
-      "subCategories": [
-        {
-          "id": "2fe4e538-79bf-4f73-b65c-63e00f94c42c",
-          "title": "国内平台",
-          "icon": "FileText",
-          "description": "",
-          "enabled": true,
-          "items": []
-        },
-        {
-          "id": "5737638e-0c17-4377-9e67-12cf0fb2acd5",
-          "title": "国外平台",
-          "icon": "Book",
-          "description": "",
-          "enabled": true,
-          "items": []
-        },
-        {
-          "id": "2d33f756-959e-4171-9e0e-b616bcd274be",
-          "title": "公众号排版",
-          "icon": "Edit",
-          "description": "",
-          "enabled": true,
-          "items": []
-        },
-        {
-          "id": "e2b07afd-968c-4985-b6c2-8dc504bce17b",
-          "title": "录屏工具",
-          "icon": "Folder",
-          "description": "",
-          "enabled": true,
-          "items": []
-        },
-        {
-          "id": "0ed6d8b1-effe-4535-8cde-60ec38f9c96c",
-          "title": "AI 检测工具",
-          "icon": "BookOpen",
-          "description": "",
-          "enabled": true,
-          "items": []
-        }
-      ]
-    },
-    {
       "id": "2",
       "title": "常用工具",
       "icon": "Laptop",
