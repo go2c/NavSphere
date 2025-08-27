@@ -3,21 +3,10 @@ import { Metadata } from 'next/types'
 import { ScrollToTop } from '@/components/ScrollToTop'
 import { Container } from '@/components/ui/container'
 import type { SiteConfig } from '@/types/site'
+import navigationData from '@/navsphere/content/navigation.json'
 import siteDataRaw from '@/navsphere/content/site.json'
 
-async function getData() {
-  // 获取 navigationData
-  let navigationData = { navigationItems: [] }
-  try {
-      const res = await fetch('https://nav.samshen.my/api/navigation', { cache: 'no-store' })
-      if (res.ok) {
-        const text = await res.text()
-        navigationData = JSON.parse(text)
-      }
-    } catch (e) {
-      // 可以用 console.error(e) 打印错误，开发环境下有用
-  }
-
+function getData() {
   // 确保 theme 类型正确
   const siteData: SiteConfig = {
     ...siteDataRaw,
@@ -48,8 +37,8 @@ async function getData() {
   }
 }
 
-export async function generateMetadata(): Promise<Metadata> {
-  const { siteData } = await getData()
+export function generateMetadata(): Metadata {
+  const { siteData } = getData()
 
   return {
     title: siteData.basic.title,
@@ -61,8 +50,8 @@ export async function generateMetadata(): Promise<Metadata> {
   }
 }
 
-export default async function HomePage() {
-  const { navigationData, siteData } = await getData()
+export default function HomePage() {
+  const { navigationData, siteData } = getData()
 
   return (
     <Container>
