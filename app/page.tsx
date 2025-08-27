@@ -7,8 +7,15 @@ import siteDataRaw from '@/navsphere/content/site.json'
 
 async function getData() {
   // 获取 navigationData
-  const res = await fetch('/api/navigation', { cache: 'no-store' })
-  const navigationData = await res.json()
+  let navigationData = { navigationItems: [] }
+  try {
+    const res = await fetch('https://nav.samshen.my/api/navigation', { cache: 'no-store' })
+    if (res.ok) {
+      navigationData = await res.json()
+    }
+  } catch (e) {
+    // 可以用 console.error(e) 打印错误，开发环境下有用
+  }
 
   // 确保 theme 类型正确
   const siteData: SiteConfig = {
