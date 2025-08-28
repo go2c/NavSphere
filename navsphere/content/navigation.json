@@ -1,68 +1,31 @@
 {
   "navigationItems": [
     {
-      "id": "1",
-      "title": "常用网址",
-      "icon": "Star",
-      "items": [],
-      "subCategories": [],
-      "description": "",
-      "enabled": true
-    },
-    {
-      "id": "2",
-      "title": "常用工具",
-      "icon": "Laptop",
+      "id": "1756263785398",
+      "title": "AA分类",
+      "icon": "BookOpen",
+      "description": "1111",
+      "enabled": true,
       "items": [],
       "subCategories": [
         {
-          "id": "3",
-          "title": "在线工具",
-          "href": "#在线工具",
-          "icon": "Folder",
+          "id": "7eecd675-97e3-453d-af57-e0f9b73984a7",
+          "title": "A1分类",
+          "icon": "Cloud",
           "description": "",
-          "items": [],
-          "enabled": true
-        },
-        {
-          "id": "4",
-          "title": "图形创意",
-          "href": "#图形创意",
-          "icon": "Folder",
-          "description": "",
-          "items": [],
-          "enabled": true
-        },
-        {
-          "id": "5",
-          "title": "界面设计",
-          "href": "#界面设计",
-          "icon": "Folder",
-          "description": "",
-          "items": [],
-          "enabled": true
-        },
-        {
-          "id": "6",
-          "title": "交互动效",
-          "href": "#交互动效",
-          "icon": "Book",
-          "description": "",
-          "items": [],
-          "enabled": true
-        },
-        {
-          "id": "7",
-          "title": "在线配色",
-          "href": "#在线配色",
-          "icon": "Book",
-          "description": "",
-          "items": [],
-          "enabled": true
+          "enabled": true,
+          "items": [
+            {
+              "id": "site_1756264183882_ziyi99izx",
+              "title": "中国移动智慧社区物业管理平台",
+              "href": "https://hxq.komect.com/hxqems/#/login",
+              "description": "",
+              "icon": "/assets/favicon_1756264170802.ico",
+              "enabled": true
+            }
+          ]
         }
-      ],
-      "description": "",
-      "enabled": true
+      ]
     }
   ]
 }
