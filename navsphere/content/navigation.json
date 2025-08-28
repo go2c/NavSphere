@@ -2,7 +2,7 @@
   "navigationItems": [
     {
       "id": "1756263785398",
-      "title": "生产环境",
+      "title": "移动社区",
       "icon": "BookOpen",
       "description": "1111",
       "enabled": true,
@@ -10,7 +10,7 @@
       "subCategories": [
         {
           "id": "7eecd675-97e3-453d-af57-e0f9b73984a7",
-          "title": "社区",
+          "title": "生产环境",
           "icon": "Building",
           "description": "",
           "enabled": true,
@@ -56,20 +56,10 @@
               "enabled": true
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "1756345086469",
-      "title": "测试环境",
-      "icon": "Brain",
-      "description": "",
-      "enabled": true,
-      "items": [],
-      "subCategories": [
+        },
         {
           "id": "540f0127-c734-40b8-a388-2002783678c5",
-          "title": "社区",
+          "title": "测试环境",
           "icon": "Building",
           "description": "",
           "enabled": true,
@@ -115,20 +105,10 @@
               "enabled": true
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "1756345217393",
-      "title": "开发环境",
-      "icon": "Code",
-      "description": "",
-      "enabled": true,
-      "items": [],
-      "subCategories": [
+        },
         {
           "id": "41e3a4f5-945d-4890-9359-733fc50b2b9b",
-          "title": "社区",
+          "title": "开发环境",
           "icon": "Building",
           "description": "",
           "enabled": true,
@@ -176,6 +156,24 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1756345086469",
+      "title": "菜单2",
+      "icon": "Brain",
+      "description": "",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
+    },
+    {
+      "id": "1756345217393",
+      "title": "菜单3",
+      "icon": "Code",
+      "description": "",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
     }
   ]
 }
