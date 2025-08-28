@@ -2,7 +2,7 @@
   "navigationItems": [
     {
       "id": "1756263785398",
-      "title": "AA分类",
+      "title": "生产环境",
       "icon": "BookOpen",
       "description": "1111",
       "enabled": true,
@@ -10,17 +10,167 @@
       "subCategories": [
         {
           "id": "7eecd675-97e3-453d-af57-e0f9b73984a7",
-          "title": "A1分类",
-          "icon": "Cloud",
+          "title": "社区",
+          "icon": "Building",
           "description": "",
           "enabled": true,
           "items": [
             {
-              "id": "site_1756264183882_ziyi99izx",
-              "title": "中国移动智慧社区物业管理平台",
+              "id": "site_1756346393962_ziyi91izx",
+              "title": "物管平台",
               "href": "https://hxq.komect.com/hxqems/#/login",
-              "description": "",
-              "icon": "/assets/favicon_1756264170802.ico",
+              "description": "物管平台",
+              "icon": "https://hxq.komect.com/hxqems/favicon.ico",
+              "enabled": true
+            },
+            {
+              "id": "site_1756346394963_ziyi92izx",
+              "title": "运营平台",
+              "href": "https://hxq.komect.com/hxqeec/#/login",
+              "description": "运营平台",
+              "icon": "https://hxq.komect.com/hxqems/favicon.ico",
+              "enabled": true
+            },
+            {
+              "id": "site_1756346395963_ziyi93izx",
+              "title": "综治平台",
+              "href": "https://hxq.komect.com/hxqgov/#/login",
+              "description": "综治平台",
+              "icon": "https://hxq.komect.com/hxqems/favicon.ico",
+              "enabled": true
+            },
+            {
+              "id": "site_1756346396964_ziyi94izx",
+              "title": "河南融合b端",
+              "href": "https://hxq.komect.com/zongzhi-service/login",
+              "description": "河南融合b端",
+              "icon": "https://hxq.komect.com/hxqems/favicon.ico",
+              "enabled": true
+            },
+            {
+              "id": "site_1756346397964_ziyi95izx",
+              "title": "和小区h5",
+              "href": "https://hxq.komect.com/hxqweb/login",
+              "description": "和小区h5",
+              "icon": "https://hxq.komect.com/hxqems/favicon.ico",
+              "enabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1756345086469",
+      "title": "测试环境",
+      "icon": "Brain",
+      "description": "",
+      "enabled": true,
+      "items": [],
+      "subCategories": [
+        {
+          "id": "540f0127-c734-40b8-a388-2002783678c5",
+          "title": "社区",
+          "icon": "Building",
+          "description": "",
+          "enabled": true,
+          "items": [
+            {
+              "id": "site_1756346453999_ziyi91izx",
+              "title": "物管平台",
+              "href": "http://112.17.28.98:19102/hxqems/#/login",
+              "description": "物管平台",
+              "icon": "https://hxq.komect.com/hxqems/favicon.ico",
+              "enabled": true
+            },
+            {
+              "id": "site_1756346454999_ziyi92izx",
+              "title": "运营平台",
+              "href": "http://112.17.28.98:19102/hxqeec/#/login",
+              "description": "运营平台",
+              "icon": "https://hxq.komect.com/hxqems/favicon.ico",
+              "enabled": true
+            },
+            {
+              "id": "site_1756346456000_ziyi93izx",
+              "title": "综治平台",
+              "href": "http://112.17.28.98:19102/hxqgov/#/login",
+              "description": "综治平台",
+              "icon": "https://hxq.komect.com/hxqems/favicon.ico",
+              "enabled": true
+            },
+            {
+              "id": "site_1756346457001_ziyi94izx",
+              "title": "河南融合b端",
+              "href": "http://112.17.28.98:19102/zongzhi-service/login",
+              "description": "河南融合b端",
+              "icon": "https://hxq.komect.com/hxqems/favicon.ico",
+              "enabled": true
+            },
+            {
+              "id": "site_1756346458001_ziyi95izx",
+              "title": "和小区h5",
+              "href": "http://112.17.28.98:19102/hxqweb/login",
+              "description": "和小区h5",
+              "icon": "https://hxq.komect.com/hxqems/favicon.ico",
+              "enabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1756345217393",
+      "title": "开发环境",
+      "icon": "Code",
+      "description": "",
+      "enabled": true,
+      "items": [],
+      "subCategories": [
+        {
+          "id": "41e3a4f5-945d-4890-9359-733fc50b2b9b",
+          "title": "社区",
+          "icon": "Building",
+          "description": "",
+          "enabled": true,
+          "items": [
+            {
+              "id": "site_1756346448995_ziyi91izx",
+              "title": "物管平台",
+              "href": "http://112.17.28.98:9109/hxqems/#/login",
+              "description": "物管平台",
+              "icon": "https://hxq.komect.com/hxqems/favicon.ico",
+              "enabled": true
+            },
+            {
+              "id": "site_1756346449996_ziyi92izx",
+              "title": "运营平台",
+              "href": "http://112.17.28.98:9109/hxqeec/#/login",
+              "description": "运营平台",
+              "icon": "https://hxq.komect.com/hxqems/favicon.ico",
+              "enabled": true
+            },
+            {
+              "id": "site_1756346450996_ziyi93izx",
+              "title": "综治平台",
+              "href": "http://112.17.28.98:9109/hxqgov/#/login",
+              "description": "综治平台",
+              "icon": "https://hxq.komect.com/hxqems/favicon.ico",
+              "enabled": true
+            },
+            {
+              "id": "site_1756346451997_ziyi94izx",
+              "title": "河南融合b端",
+              "href": "http://112.17.28.98:9109/zongzhi-service/login",
+              "description": "河南融合b端",
+              "icon": "https://hxq.komect.com/hxqems/favicon.ico",
+              "enabled": true
+            },
+            {
+              "id": "site_1756346452998_ziyi95izx",
+              "title": "和小区h5",
+              "href": "http://112.17.28.98:9109/hxqweb/login",
+              "description": "和小区h5",
+              "icon": "https://hxq.komect.com/hxqems/favicon.ico",
               "enabled": true
             }
           ]
