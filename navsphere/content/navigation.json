@@ -159,20 +159,144 @@
     },
     {
       "id": "1756345086469",
-      "title": "菜单2",
-      "icon": "Brain",
+      "title": "移动乡村",
+      "icon": "Network",
       "description": "",
       "enabled": true,
-      "items": [],
+      "items": [
+        {
+          "id": "1756361592766",
+          "title": "村委平台-正式",
+          "href": "https://szxc.komect.com/promoteEdit/login",
+          "description": "访问 szxc.komect.com",
+          "icon": "https://www.google.com/s2/favicons?sz=128&domain=szxc.komect.com",
+          "enabled": true
+        },
+        {
+          "id": "1756361720227",
+          "title": "村委平台-测试",
+          "href": "https://test.szxc.komect.com/promoteEdit/login",
+          "description": "访问 test.szxc.komect.com",
+          "icon": "https://www.google.com/s2/favicons?sz=128&domain=test.szxc.komect.com",
+          "enabled": true
+        },
+        {
+          "id": "1756361753719",
+          "title": "二级平台-正式",
+          "href": "https://szxc.komect.com/#/login",
+          "description": "访问 test.szxc.komect.com",
+          "icon": "https://www.google.com/s2/favicons?sz=128&domain=test.szxc.komect.com",
+          "enabled": true
+        },
+        {
+          "id": "1756361815319",
+          "title": "二级平台-测试",
+          "href": "https://test.szxc.komect.com/#/login",
+          "description": "访问 test.szxc.komect.com",
+          "icon": "https://www.google.com/s2/favicons?sz=128&domain=test.szxc.komect.com",
+          "enabled": true
+        }
+      ],
       "subCategories": []
     },
     {
       "id": "1756345217393",
-      "title": "菜单3",
+      "title": "图像工具",
+      "icon": "Image",
+      "description": "",
+      "enabled": true,
+      "items": [
+        {
+          "id": "1756361898357",
+          "title": "Shots - Create Amazing Mockups",
+          "href": "https://shots.so/",
+          "description": "Create Amazing Mockups",
+          "icon": "/assets/favicon_1756361903897.png",
+          "enabled": true
+        },
+        {
+          "id": "1756361946695",
+          "title": "Screenshot Editor - PostSpark",
+          "href": "https://postspark.app/screenshot",
+          "description": "Transform your screenshots into professional visuals with our advanced screenshot editor. Add background, browser frames, text annotations, shadows, and more.",
+          "icon": "/assets/favicon_1756361949433.ico",
+          "enabled": true
+        },
+        {
+          "id": "1756362190201",
+          "title": "draw.io",
+          "href": "https://www.drawio.com/",
+          "description": "",
+          "icon": "/assets/favicon_1756362192773.ico",
+          "enabled": true
+        },
+        {
+          "id": "1756362220533",
+          "title": "ProcessOn",
+          "href": "https://www.processon.com/",
+          "description": "ProcessOn是一款专业在线作图工具和知识分享社区，支持AI一键生成思维导图和流程图。可绘制甘特图、ER图、UML、网络拓扑图、电路图、平面图、鱼骨图、组织结构图、时间轴等多种图形，同时可实现人与人之间的实时协作和共享，提升团队工作效率。",
+          "icon": "/assets/favicon_1756362223369.png",
+          "enabled": true
+        },
+        {
+          "id": "1756362498815",
+          "title": "Screenity - The free and privacy-friendly screen recorder",
+          "href": "https://screenity.io/en/",
+          "description": "Screenity is a screen recorder for Chrome with no limits. Capture, draw, edit videos and more - all with no sign in needed, completely private and open source.",
+          "icon": "/assets/favicon_1756362505726.ico",
+          "enabled": true
+        },
+        {
+          "id": "1756362559115",
+          "title": "Cursorful - Create engaging screen recordings for free",
+          "href": "https://cursorful.com/",
+          "description": "Create beautiful browser recordings that keep the viewer engaged. Cursorful is a browser recorder that automatically adds zooms and pans.",
+          "icon": "/assets/favicon_1756362562064.png",
+          "enabled": true
+        }
+      ],
+      "subCategories": []
+    },
+    {
+      "id": "1756362911915",
+      "title": "代码工具",
       "icon": "Code",
       "description": "",
       "enabled": true,
-      "items": [],
+      "items": [
+        {
+          "id": "1756362920149",
+          "title": "Table Convert - Free Online Table Converter and Generator",
+          "href": "https://tableconvert.com",
+          "description": "Easy-to-use online Excel Spreadsheet to JSON Standard Format converter. Transform table data effortlessly with our intuitive conversion tool. Fast, reliable, and user-friendly.",
+          "icon": "/assets/favicon_1756362925593.png",
+          "enabled": true
+        },
+        {
+          "id": "1756362959125",
+          "title": "JSON Editor Online: edit JSON, format JSON, query JSON",
+          "href": "https://jsoneditoronline.org/",
+          "description": "JSON Editor Online is the original and most copied JSON Editor on the web. Use it to view, edit, format, repair, compare, query, transform, validate, and share your JSON data.",
+          "icon": "/assets/favicon_1756362961550.png",
+          "enabled": true
+        },
+        {
+          "id": "1756363053204",
+          "title": "Online JavaScript beautifier",
+          "href": "https://beautifier.io/",
+          "description": "",
+          "icon": "/assets/favicon_1756363055597.png",
+          "enabled": true
+        },
+        {
+          "id": "1756363077489",
+          "title": "Color Hunt - Color Palettes for Designers and Artists",
+          "href": "https://colorhunt.co/",
+          "description": "Discover the newest hand-picked color palettes of Color Hunt. Get color inspiration for your design and art projects.",
+          "icon": "/assets/favicon_1756363080809.svg",
+          "enabled": true
+        }
+      ],
       "subCategories": []
     }
   ]
