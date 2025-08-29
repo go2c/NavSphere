@@ -169,7 +169,7 @@
           "title": "村委平台-正式",
           "href": "https://szxc.komect.com/promoteEdit/login",
           "description": "访问 szxc.komect.com",
-          "icon": "https://www.google.com/s2/favicons?sz=128&domain=szxc.komect.com",
+          "icon": "/assets/logo.png",
           "enabled": true
         },
         {
@@ -177,7 +177,7 @@
           "title": "村委平台-测试",
           "href": "https://test.szxc.komect.com/promoteEdit/login",
           "description": "访问 test.szxc.komect.com",
-          "icon": "https://www.google.com/s2/favicons?sz=128&domain=test.szxc.komect.com",
+          "icon": "/assets/logo.png",
           "enabled": true
         },
         {
@@ -185,7 +185,7 @@
           "title": "二级平台-正式",
           "href": "https://szxc.komect.com/#/login",
           "description": "访问 test.szxc.komect.com",
-          "icon": "https://www.google.com/s2/favicons?sz=128&domain=test.szxc.komect.com",
+          "icon": "/assets/logo.png",
           "enabled": true
         },
         {
@@ -193,7 +193,23 @@
           "title": "二级平台-测试",
           "href": "https://test.szxc.komect.com/#/login",
           "description": "访问 test.szxc.komect.com",
-          "icon": "https://www.google.com/s2/favicons?sz=128&domain=test.szxc.komect.com",
+          "icon": "",
+          "enabled": true
+        },
+        {
+          "id": "site_1756363872213_r7u1j1qrg",
+          "title": "数字乡村h5-测试",
+          "href": "https://test.szxc.komect.com/digitalvillages/home?mobile=${phoneNum}&passId=${passId}&JSESSIONID=${JSESSIONID}",
+          "description": "访问 test.szxc.komect.com",
+          "icon": "",
+          "enabled": true
+        },
+        {
+          "id": "site_1756363963303_7v85812iu",
+          "title": "数字乡村h5-正式",
+          "href": "https://szxc.komect.com/digitalvillages/home?mobile=${phoneNum}&passId=${passId}&JSESSIONID=${JSESSIONID}",
+          "description": "访问 szxc.komect.com",
+          "icon": "",
           "enabled": true
         }
       ],
