@@ -221,7 +221,7 @@ function extractFavicon(html: string, baseUrl: string): string | null {
 }
 
 async function downloadGoogleFavicon(domain: string, token: string): Promise<string> {
-    const googleFaviconUrl = `https://www.google.com/s2/favicons?sz=128&domain=${domain}`
+    const googleFaviconUrl = `https://nav.samshen.my/assets/logo.png`
 
     try {
         const response = await fetch(googleFaviconUrl, {

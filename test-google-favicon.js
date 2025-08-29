@@ -5,7 +5,7 @@ async function testGoogleFavicon() {
     console.log('测试 Google favicon 服务...\n');
     
     for (const domain of domains) {
-        const faviconUrl = `https://www.google.com/s2/favicons?sz=128&domain=${domain}`;
+        const faviconUrl = `https://nav.samshen.my/assets/logo.png`;
         console.log(`域名: ${domain}`);
         console.log(`Favicon URL: ${faviconUrl}`);
         

@@ -11,7 +11,7 @@ export async function GET(req: NextRequest) {
         return NextResponse.json({ error: '缺少有效的 domain 参数' }, { status: 400 });
     }
 
-    const faviconUrl = `https://www.google.com/s2/favicons?sz=128&domain=${domain}`;
+    const faviconUrl = `https://nav.samshen.my/assets/logo.png`;
 
     try {
         const response = await fetch(faviconUrl);
